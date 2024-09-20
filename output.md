@@ -5,11 +5,11 @@ history
 docker pull bkimminich/juice-shop
 docker run -d -p 3000:3000 bkimminich/juice-shop
 history
-Committing directly to the master branch in Github is not reccommended, commiting directly to the master increases the risk of break changes that can have a negative affect on the entire project. Also, when commiting something directly to the master and you locate a mistake it can be very difficult to revert.
+#Committing directly to the master branch in Github is not reccommended, commiting directly to the master increases the risk of break changes that can have a negative affect on the entire project. Also, when commiting something directly to the master and you locate a mistake it can be very difficult to revert.
 
-I did not make any changes to my repo settings this far at step 6.
+#I did not make any changes to my repo settings this far at step 6.
 
-Steps to Reploy new image
+#Steps to Reploy new image:
 
 cd frontend/src/assets/public/images/products/
 cp /Users/fe/Downloads/juicyEvilWasp.png ./apple_pressings.jpg
@@ -30,5 +30,5 @@ Next steps if this had completed properly:
 #run the new image
 docker run -d -p 3000:3000 --name juice-shop-custom-container oj-custom
 
-Verfiy changes
+Verify changes
 http://localhost:3000
